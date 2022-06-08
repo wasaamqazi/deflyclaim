@@ -1,0 +1,7 @@
+.myown-container {
+    max-width: 1340px;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    min-height: 600px;
+}

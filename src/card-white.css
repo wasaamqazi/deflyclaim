@@ -1,0 +1,119 @@
+.card-white {
+  background-color: #343a40;
+  border-radius: 10px;
+  width: auto;
+  color: white;
+}
+
+.crd-white-img {
+  border: none;
+  border-radius: 450px;
+  display: block;
+  transition: transform 0.4s;
+}
+
+.card-white-img {
+  border: 4px solid #fcc012;
+  border-radius: 350px;
+  width: 13.75vw;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.font-28 {
+  font-size: 28px;
+}
+
+.card-white:hover .crd-white-img {
+  transform: scale(1.05);
+  transform-origin: inset 50% 50%;
+}
+
+/* Hover border */
+
+#converge-at-corners:hover:before {
+  border-top-left-radius: 15px;
+}
+
+#converge-at-corners:hover:after,
+#converge-at-corners:hover:before {
+  width: 30%;
+  height: 50%;
+}
+
+#converge-at-corners:before {
+  top: 0px;
+  left: 0px;
+  border-color: #fcc012 transparent transparent #fcc012 !important;
+}
+
+#converge-at-corners:after,
+#converge-at-corners:before {
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 3px solid;
+  z-index: 1;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+#converge-at-corners:hover:after {
+  border-bottom-right-radius: 15px;
+}
+
+#converge-at-corners:after {
+  bottom: 0;
+  right: 0;
+  border-color: transparent #fcc012 #fcc012 transparent !important;
+}
+
+#converge-at-corners {
+  -webkit-box-shadow: 0 8px 10px 0 rgb(0 0 0 / 9%);
+  box-shadow: 0 8px 10px 0 rgb(0 0 0 / 9%);
+  border-radius: 15px;
+  text-align: center;
+  /* -webkit-transition: -webkit-transform .25s ease,-webkit-box-shadow .25s ease; */
+  /* transition: -webkit-transform .25s ease,-webkit-box-shadow .25s ease; */
+  -moz-transition: transform 0.25s ease, box-shadow 0.25s ease,
+    -moz-transform 0.25s ease;
+  /* transition: transform .25s ease,box-shadow .25s ease; */
+  /* transition: transform .25s ease,box-shadow .25s ease,-webkit-transform .25s ease,-moz-transform .25s ease,-webkit-box-shadow .25s ease; */
+  position: relative;
+  overflow: hidden;
+}
+
+.dogslider-bg {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.33),
+      rgba(0, 0, 0, 0.41),
+      rgba(0, 0, 0, 0.26)
+    ),
+    url(../src/assets/15.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  position: absolute;
+  height: 85vh !important;
+  width: 100vw;
+  right: 0%;
+  top: 155%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1366px) {
+  .font-28 {
+    font-size: 1.65rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .card-white-img {
+    width: 33.75vw;
+  }
+}

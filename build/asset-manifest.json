@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.56fd5701.chunk.css",
+    "main.js": "/static/js/main.c6e865fd.chunk.js",
+    "main.js.map": "/static/js/main.c6e865fd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.df6ed12a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.df6ed12a.js.map",
+    "static/css/2.bc007989.chunk.css": "/static/css/2.bc007989.chunk.css",
+    "static/js/2.000f05d2.chunk.js": "/static/js/2.000f05d2.chunk.js",
+    "static/js/2.000f05d2.chunk.js.map": "/static/js/2.000f05d2.chunk.js.map",
+    "static/js/3.df016b84.chunk.js": "/static/js/3.df016b84.chunk.js",
+    "static/js/3.df016b84.chunk.js.map": "/static/js/3.df016b84.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.bc007989.chunk.css.map": "/static/css/2.bc007989.chunk.css.map",
+    "static/css/main.56fd5701.chunk.css.map": "/static/css/main.56fd5701.chunk.css.map",
+    "static/js/2.000f05d2.chunk.js.LICENSE.txt": "/static/js/2.000f05d2.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/poppins.regular.1c701c9a.ttf",
+    "static/media/Crew gd2.f9092a04.png": "/static/media/Crew gd2.f9092a04.png",
+    "static/media/Group 6650.9a4aea76.svg": "/static/media/Group 6650.9a4aea76.svg",
+    "static/media/dx.light.css": "/static/media/dxicons.e4acc9c2.woff2",
+    "static/media/metamask-logo.57b9c840.svg": "/static/media/metamask-logo.57b9c840.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df6ed12a.js",
+    "static/css/2.bc007989.chunk.css",
+    "static/js/2.000f05d2.chunk.js",
+    "static/css/main.56fd5701.chunk.css",
+    "static/js/main.c6e865fd.chunk.js"
+  ]
+}
